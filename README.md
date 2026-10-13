@@ -10,6 +10,7 @@ El proyecto está compuesto por tres clases principales:
 - **`Agenda`** → Contiene la lógica de gestión de contactos.
 - **`Main`** → Ejecuta el menú interactivo y conecta al usuario con la agenda.
 
+  (El código se escribió colaborativamente utilizando la extencion "Code With Me" de IntelliJ DEA)
 ---
 
 ## 👥 Integrantes del Equipo y Roles Scrum
@@ -20,7 +21,6 @@ El proyecto está compuesto por tres clases principales:
 | **Selene Kanagusico** | **Product Owner** | Priorizar el backlog, definir los requerimientos y representar los intereses del usuario. |
 | **Adriana Benítez** | **Development Team** | Desarrollo de funcionalidades, pruebas y mantenimiento del código. |
 | **Hannia Reyes** | **Development Team** | Desarrollo de funcionalidades, pruebas y mantenimiento del código. |
-
 ---
 
 ## 🧩 Estructura del Código
