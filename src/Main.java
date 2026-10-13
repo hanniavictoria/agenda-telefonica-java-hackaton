@@ -9,48 +9,6 @@ public class Main {
 
         Agenda ag = new Agenda();
 
-        //Prueba de agregar contactos
-        /*
-        ag.agregarContacto(contacto1);
-        ag.agregarContacto(contacto2);
-        ag.agregarContacto(contacto3);
-        ag.agregarContacto(contacto4);
-        ag.agregarContacto(contacto5);
-        ag.agregarContacto(contacto6);
-        ag.agregarContacto(contacto7);
-        ag.agregarContacto(contacto8);
-        ag.agregarContacto(contacto9);
-        ag.agregarContacto(contacto10);
-        ag.agregarContacto(contacto11);
-        ag.agregarContacto(contacto12);
-
-        //Listar contactos
-        ag.listarContactos();
-
-        //Buscar Contacto
-        ag.buscaContacto("Efrain", "Sagols");
-        ag.buscaContacto("Luna", "hh");
-
-        //Eliminar contacto
-        ag.eliminarContacto(contacto1);
-        ag.eliminarContacto(contacto2);
-        ag.listarContactos();
-
-        //Modificar Télefono
-        System.out.println("=====MODIFICAR TELÉFONO=====");
-        ag.modificarTelefono("Efrain", "Sagols", "5613224455");
-        ag.listarContactos();
-        ag.modificarTelefono("Adriana", "Btz", "5613224455");
-
-        //Agenda Llena
-        ag.agendaLlena();
-
-        //Espacio Libre
-        ag.espacioLibres();
-        */
-
-        //Menú de la agenda
-
         // MENÚ PRINCIPAL
 
         int opcion = 0;

@@ -1,7 +1,3 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Comparator;
-
 public class Agenda {
 
     private Contacto[] contactos;
@@ -40,7 +36,7 @@ public class Agenda {
         }//else
     }  // Metodo agregarContacto
 
-    //listarContactos(): (Hannia)
+    //listarContactos():
     public void listarContactos(){
         if(contador == 0){
             System.out.println(">ERROR: Agenda Vacía.");
@@ -64,7 +60,7 @@ public class Agenda {
         }//else
     }// Metodo Listar Contacto
 
-    //buscaContacto(String nombre): (Efra)
+    //buscaContacto(String nombre):
     public void buscaContacto(String nombre, String apellido) {
         //Si lo encuentra muenstra mensaje y la informacion del contacto
         for(int i = 0; i< contador; i++){
@@ -81,7 +77,7 @@ public class Agenda {
         System.out.println("Contacto no registrado");
     }//buscaContacto
 
-    //eliminarContacto (Selene)
+    //eliminarContacto
 
     public void eliminarContacto (Contacto c) {
            int indiceEncontrado = -1;
@@ -109,7 +105,7 @@ public class Agenda {
 
     }  // eliminarContacto
 
-    //modificarTelefono: (Adrii)
+    //modificarTelefono:
 
     public void modificarTelefono(String nombre, String apellido, String nuevoTelefono){
         boolean encontrado = false; // partimos de la idea de que aún no encontramos a la persona
